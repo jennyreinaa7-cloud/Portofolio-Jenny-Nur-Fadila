@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portofolio - 𝐉𝐞𝐧𝐧𝐲 𝐍𝐮𝐫 𝐅𝐚𝐝𝐢𝐥𝐚</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .wrapper {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: #ffeaea;
+            padding: 28px 24px;
+            border: 1px solid #ffaee4;
+            border-radius: 8px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .profile-info {
+            text-align: center;
+        }
+
+        .name {
+            font-size: 24px;
+            margin-bottom: 4px;
+            color: #111111;
+        }
+
+        .desc {
+            font-size: 13.5px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .foto-profil {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #000000;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #000000;
+            background: #f5f5f5;
+            border: 1px solid #dddddd;
+            padding: 5px 12px;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+
+        .links a:hover {
+            background: #e9e9e9;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #eeeeee;
+            margin: 25px 0 20px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            margin-bottom: 16px;
+            color: #111111;
+        }
+
+        .activity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #e0e0e0;
+            border-radius: px;
+            background: #fafafa;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            background: #f0f7ff;
+            border-color: #ff2abf;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            background: #eaeaea;
+        }
+
+        .card-body {
+            padding: 12px 14px;
+        }
+
+        .card-badge {
+            display: inline-block;
+            font-size: 11px;
+            color: #ff2982;
+            font-weight: bold;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+        }
+
+        .card h4 {
+            font-size: 14.5px;
+            margin-bottom: 4px;
+            color: #111111;
+        }
+
+        .card p {
+            font-size: 13px;
+            color: #060606;
+        }
+
+        .section-title {
+            display: inline-block;
+            background-color: #ffd1eb;
+            color: #9c0b5e;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-bottom: 18px;
+            border: 1px solid #ff9ed6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="profile">
+            <div class="profile-info">
+
+                <h1 style="text-align: center;">𝐉𝐄𝐍𝐍𝐘 𝐍𝐔𝐑 𝐅𝐀𝐃𝐈𝐋𝐀</h1>
+                <p class="desc" style="text-align: center;">
+                    𝖬𝖺𝗁𝖺𝗌𝗂𝗌𝗐𝗂 𝖲1 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗄𝖺 𝖥𝖺𝗄𝗎𝗅𝗍𝖺𝗌 𝖨𝗅𝗆𝗎 𝖪𝗈𝗆𝗉𝗎𝗍𝖾𝗋
+                    𝖴𝗇𝗂𝗏𝖾𝗋𝗌𝗂𝗍𝖺𝗌 𝖩𝖾𝗆𝖻𝖾𝗋 𝖺𝗄𝗍𝗂𝖿 𝖽𝖺𝗅𝖺𝗆 𝖱𝗂𝗌𝖾𝗍 𝖯𝖾𝗇𝖾𝗅𝗂𝗍𝗂𝖺𝗇,
+                    𝖪𝖾𝗆𝖺𝗌𝗒𝖺𝗋𝖺𝗄𝖺𝗍𝖺𝗇, 𝗌𝖾𝗋𝗍𝖺 𝖪𝖾𝗀𝗂𝖺𝗍𝖺𝗇 𝖪𝖾𝗉𝖺𝗇𝗂𝗍𝗂𝖺𝖺𝗇 𝖽𝖺𝗇 𝖯𝗎𝖻𝗅𝗂𝖼
+                    𝖲𝗉𝖾𝖺𝗄𝗂𝗇𝗀.
+                </p>
+
+                <div class="links">
+                    <a href="https://wa.me/6287857588836" target="_blank" rel="noopener">WhatsApp</a>
+                    <a href="https://www.linkedin.com/in/jennyfadilaa" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://www.instagram.com/jennyfadilaa" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.youtube.com/jennyfadila" target="_blank" rel="noopener">YouTube</a>
+                </div>
+            </div>
+
+            <img src="Jenny.jpg" alt="Jenny Nur Fadila" class="foto-profil">
+        </div>
+
+        <hr>
+
+        <h3 class="section-title">Rekam Kegiatan & Prestasi</h3>
+
+        <div class="activity-list">
+
+            <div class="card">
+                <img src="GSA.jpg" alt="Google Student Ambassador" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Prestasi Nasional</span>
+                    <h4>Google Student Ambassador (2026)</h4>
+                    <p>Awarded Certificate of Participation sebagai Google Student Ambassador Angkatan 1 Periode 2026
+                        dari puluhan ribu mahasiswa se-Indonesia.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Hibah.jpg" alt="Pengabdian Dosen" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Pengabdian Masyarakat</span>
+                    <h4>Asisten Pelaksana Program Pengabdian Dosen</h4>
+                    <p>Turut mengimplementasikan program transformasi digital sistem absensi geospasial serta edukasi
+                        kosmetik dan gizi di SMKN 3 Jember.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Dutiv.jpg" alt="Duta Inovatif Indonesia" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Prestasi Nasional</span>
+                    <h4>Duta Inovatif Indonesia Generasi 8</h4>
+                    <p>Mendapatkan Certificate of Achievement Duta Of The Period Juli 2025 dan Duta Best Innovation of
+                        the Seasons 2025 oleh Youth Idea Community.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Pilma.jpg" alt="Finalis Mapres" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Penghargaan Kampus</span>
+                    <h4>Finalis Pemilihan Mahasiswa Berprestasi Fasilkom UNEJ</h4>
+                    <p>Terpilih sebagai salah satu finalis Mahasiswa Berprestasi di Fakultas Ilmu Komputer, Universitas
+                        Jember (2025).</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Peduly.jpg" alt="Peduly Jember" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Organisasi & Relawan</span>
+                    <h4>Project Planner & Project Officer - Peduly Jember</h4>
+                    <p>Merancang alur program sosial kemanusiaan, kerelawanan panti, serta menjadi penanggung jawab
+                        kegiatan (Batch 9 & 10).</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Binary.jpg" alt="UKM Binary" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Organisasi Kampus</span>
+                    <h4>UKM-P Binary Fakultas Ilmu Komputer</h4>
+                    <p>Aktif dalam organisasi bahasa University Student English Forum (USEF) serta unit kegiatan
+                        mahasiswa penelitian komputasi Binary.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Usef.JPG" alt="University Student English Forum" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Organisasi Kampus</span>
+                    <h4>University Student English Forum (USEF)</h4>
+                    <p>Aktif dalam organisasi bahasa University Student English Forum (USEF) serta unit kegiatan
+                        mahasiswa penelitian komputasi Binary.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="aiesec.jpg" alt="AIESEC Universitas Jember" class="card-img">
+                <div class="card-body">
+                    <span class="card-badge">Organisasi Kampus</span>
+                    <h4>AIESEC Universitas Jember</h4>
+                    <p>AIESEC Future Leader adalah kegiatan mahasiswa yang di rancang untuk mengembangkan kepemimpinan
+                        dan keterampilan</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                cards.forEach(c => c.style.borderColor = '#e0e0e0');
+                card.style.borderColor = '#0056b3';
+            });
+        });
+    </script>
+</body>
+
+</html>
